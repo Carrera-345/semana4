@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuadrados 3x3</title>
+  <link rel="stylesheet" href="st.css">
+</head>
+<body>
+
+  <div class="texto"> fila para eventos mouseover</div>
+
+  <!-- contenedor 1 para mouseover -->
+  <div class="fila-mouseover">
+    <div class="cuadrado1-1">
+      <label>cambia el color aleatoriamente</label>
+    </div>
+    <div class="cuadrado1-2">
+      <img src="cara.jpg" alt="imagen" id="img1" class="mostrar">
+    </div>
+    <div class="cuadrado1-3">
+      <label id="txt1-3">hola que tal </label>
+    </div>
+  </div>
+
+  <div class="texto" > fila para eventos clicks</div>
+
+  <!-- contenedor 2 para click -->
+  <div class="fila-click">
+    <div class="cuadrado2-1">
+      <label id="txt2-1">Envia un mensaje por log console!</label>
+      <button id="btn2-1" >haz click!</button>
+    </div>
+    <div class="cuadrado2-2">
+      <label id="txt2-2">Cambia el color haciendo click</label>
+      <button id="btn2-2" >haz click!</button>
+    </div>
+    <div class="cuadrado2-3">
+      <label id="txt2-3">el navegador te advierte </label>
+      <button id="btn2-3" >haz click!</button>
+    </div>
+  </div>
+
+  <div class="texto"> fila para eventos focus</div>
+
+  <!-- contenedor 3 para focus -->
+  <div class="fila-focus">
+    <div class="cuadrado3-1">
+      <label id="txt2-1">Envia un mensaje por log console al hacer focus en el input!</label>
+
+      <input id="input3-1" type="text">
+    </div>
+    <div class="cuadrado3-2">
+      <label id="txt3-2">Escribe</label>
+      <input id="input3-2" type="text">
+
+      <label id="txt3-3">hola</label>
+  </div>
+  
+    <div class="cuadrado3-3" tabindex="0">
+      <label>haz focus aqui</label>
+    </div>
+  </div>
+  
+  <footer>
+    <p>Jose Marvin Gonzalez Vigil --- SMSS070522</p>
+    <p>Alfredo Antonio Arana Castro --- SMSS094422</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

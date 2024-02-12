@@ -1,0 +1,106 @@
+body {
+    background-color: beige;
+  }
+  
+  /* Otras reglas de estilo para tu documento */
+  
+.texto{
+    display: flex;
+    justify-content: center
+}
+
+.fila-mouseover {
+    display: flex;
+    justify-content: center;
+ }
+  .fila-focus {
+    display: flex;
+    justify-content: center;
+  }
+  .fila-click {
+    display: flex;
+    justify-content: center;
+  }  
+  
+  .cuadrado1-1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .cuadrado1-2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+  .mostrar {
+    display: none;
+  }
+  #img1 {
+    width: 100%;
+    height: 100%;
+  }
+  .cuadrado1-3 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+    
+  }
+  .cuadrado2-1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+    text-align: center;
+  }
+  .cuadrado2-2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+    text-align: center;
+  }
+  .cuadrado2-3 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+    text-align: center;
+  }
+  .cuadrado3-1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+  #input3-1 {
+    width: 30px;  
+    height: 10px;  
+    }
+
+  .cuadrado3-2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+    text-align: center;
+  }
+  #input3-2 {
+    width: 70px;  
+    height: 15px;  
+    }
+  .cuadrado3-3 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+  .cuadrado3-3:focus {
+    background-color: rgb(98, 27, 146);
+}
+
+
+  
